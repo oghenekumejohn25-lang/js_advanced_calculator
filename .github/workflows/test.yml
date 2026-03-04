@@ -1,23 +1,55 @@
-name: Test
+# 👋 Hi, I’m Oghenekume John
 
-on:
-  pull_request:
-    branches: [ master ]
+Welcome to my GitHub! I'm a passionate digital creator and problem solver, focused on building impactful projects that bridge technology and business.
 
-jobs:
-  build:
+---
 
-    runs-on: ubuntu-latest
+## 💼 About Me
+- 🌐 Founder of **Oghenekume Digital Hub** ([oghenekumejohn.com](https://oghenekumejohn.com))  
+- 💻 Dedicated to creating innovative solutions in web development, digital marketing, and tech-driven business growth  
+- 🚀 Always exploring new tools, frameworks, and strategies to improve user experience and drive results  
 
-    strategy:
-      matrix:
-        node-version: [20.x]
+---
 
-    steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm install
-    - run: npm test
+## 🛠️ Skills & Expertise
+- Web Development: HTML, CSS, JavaScript  
+- Digital Marketing & Growth Strategies  
+- CRM & Automation (HubSpot, Zoho, etc.)  
+- UI/UX Design Principles  
+- Project Management & Productivity Tools  
+
+---
+
+## 🔥 Featured Projects
+- **Project Name 1** – Short description of the project and its impact  
+- **Project Name 2** – Short description of the project and its impact  
+- **Project Name 3** – Short description of the project and its impact  
+
+*(More projects available in my repositories below!)*
+
+---
+
+## 🤝 Collaboration & Contributions
+
+I love collaborating and helping others dive into my projects! Here’s how you can get involved:
+
+- 🔍 **Search my repositories** – Find something interesting and explore the code.  
+- 🐛 **Create an Issue or Pull Request** – Report bugs, suggest features, or contribute improvements.  
+- 📂 **Explore Code Structure & Functionality** – Understand how things work and give feedback.  
+- ⚙️ **Set Up Workflows or Automation** – Help optimize processes, CI/CD, or other automation tasks.  
+- 💡 **Anything Development-Related** – Got an idea or challenge? Let’s tackle it together!  
+
+Feel free to pick any way you’d like to contribute – I’m excited to collaborate! 🚀
+
+---
+
+## 🌐 Connect With Me
+- 🌍 Website: [oghenekumejohn.com](https://oghenekumejohn.com)  
+- ✉️ Email: [support@oghenekumejohn.com](mailto:support@oghenekumejohn.com) | [oghenekumejohn25@gmail.com](mailto:oghenekumejohn25@gmail.com)  
+- 🔗 LinkedIn: [Oghenekume John](https://www.linkedin.com/in/oghenekume-john-5b5984384)  
+- 🐦 Twitter: [Your Twitter](#)  
+
+---
+
+## 📈 GitHub Stats
+![Oghenekume John's GitHub stats](https://github-readme-stats.vercel.app/api?username=oghenekumejohn&show_icons=true&theme=radical)
